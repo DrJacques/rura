@@ -2,6 +2,8 @@
 const express = require('express');
 const hbs = require('hbs');
 
+const port = process.env.PORT || 3000;
+
 var app = express();
 var path = require('path'); //built in path module, used to resolve paths of relative files
 
@@ -66,6 +68,6 @@ app.get('/bad',(request,response)=>{
 });
 
 
-app.listen(3000,()=>{
-    console.log("Server is up running on port 3000")
+app.listen(port,()=>{
+    console.log(`Server is up running on port ${port}`)
 });
