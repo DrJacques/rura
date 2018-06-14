@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Home</title>
+
+        <style>
+
+            .logo{
+                position: absolute;
+                width: 15%;
+                top:5%;
+                bottom: 90%;
+                right: 90%;
+                left: 5%;
+
+            }
+            .companies{
+                position: absolute;
+                top: 36%;
+                left: 17%;
+                height: 45%;
+                width: 26%;
+                background-color: yellow;
+
+
+            }
+
+            .bar-graph{
+                position: absolute;
+                top: 36%;
+                left: 45%;
+                height: 45%;
+                width: 26%;
+                background-color: yellow;
+
+
+            }
+
+            .sales-variation{
+                position: absolute;
+                top: 36%;
+                left: 73%;
+                height: 45%;
+                width: 26%;
+                background-color: yellow;
+
+
+            }
+            .routes{
+                position: absolute;
+                left: 38%;
+                top: 15%;
+                height: 15%;
+                width: 19%;
+                background-color: yellow;
+
+            }
+
+            .tickets-sold{
+                position: absolute;
+                left: 59%;
+                top: 15%;
+                height: 15%;
+                width: 19%;
+                background-color: yellow;
+            }
+
+            .n-buses-on-road{
+                position: absolute;
+                left: 80%;
+                top: 15%;
+                height: 15%;
+                width: 19%;
+                background-color: yellow;
+            }
+
+            .bus-operators{
+                position: absolute;
+                left: 17%;
+                top: 15%;
+                height: 15%;
+                width: 19%;
+                background-color:yellow;
+            }
+
+
+            .revenue{
+                width: 26%;
+                position: absolute;
+                top: 83%;
+                left: 17%;
+                height: 15%;
+                background-color: yellow;
+
+                
+            }
+
+             .monthly-income{
+                width: 26%;
+                position: absolute;
+                top: 83%;
+                left: 45%;
+                height: 15%;
+                background-color: yellow;
+
+                
+            }
+            
+             .t-a{
+                width: 26%;
+                position: absolute;
+                top: 83%;
+                left: 73%;
+                height: 15%;
+                background-color: yellow;
+
+                
+            }
+
+            .footer{
+                position: absolute;
+                left: 30%;
+
+            }
+            
+
+        
+        </style>
+    </head>
+
+    <body>
+
+        <! navigation !>
+        <section class="header">
+            <div>
+                {{> header}}
+
+            </div>
+        </section>
+
+        <!Revenue!>
+        <section class="revenue">
+            <div>
+                <h3>Total revenue: 178,000 RWF</h3>
+            </div>
+
+        </section>
+          
+       <! routes !>
+       <section class="routes">
+           <div>
+               <h3>Routes</h3>
+               
+           </div>
+       </section>
+
+       <! companies !>
+       <section class="companies">
+           <div>
+               <h3>Companies</h3>
+           </div>
+       </section>
+
+       <!bar graph !>
+       <section class="bar-graph">
+           <div>
+               <h3>Bar graph</h3>
+           </div>
+       </section>
+
+       <!sales variation !>
+       <section class="sales-variation">
+           <div>
+               <h3>Sales variation</h3>
+           </div>
+       </section>
+
+       <!monthly income !>
+       <section class="monthly-income">
+           <div>
+               <h3>Monthly cumulative Income</h3>
+           </div>
+       </section>
+
+       <!logo !>
+       <section class="logo">
+           <div>
+               <h3>logo</h3>
+           </div>
+       </section>
+
+       <!Tickets sold !>
+       <section class="tickets-sold">
+           <div>
+               <h3>Tickets sold </h3>
+           </div>
+       </section>
+
+       <!number of bus on road !>
+       <section class="n-buses-on-road">
+           <div>
+               <h3>Number of buses on road</h3>
+           </div>
+       </section>
+
+       <!Bus operators !>
+       <section class="bus-operators">
+           <div>
+               <h3>Bus operators</h3>
+           </div>
+       </section>
+
+       <!to be announced !>
+       <section class="t-a">
+           <div>
+               <h3>TA</h3>
+           </div>
+       </section>
+  
+    </body>
+
+    <footer class="footer">
+         {{> footer}} 
+    </footer>
+
+</html>
